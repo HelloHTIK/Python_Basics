@@ -1,0 +1,14 @@
+def sum_2_num(num1, num2):
+    """对两个数字的求和"""
+
+    # num1 = int(input("请输入第一个数:"))
+    # num2 = int(input("请输入第二个数:"))
+
+    result = num1 + num2
+
+    print("%d + %d = %d" % (num1, num2, result))
+
+
+sum_2_num(50, 20)
+
+
